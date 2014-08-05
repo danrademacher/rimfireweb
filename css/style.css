@@ -1,0 +1,328 @@
+@font-face {
+  font-family: 'Bariol';
+  src: url('../fonts/Bariol/Bariol_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* lighter body text */
+
+html,
+body {
+  color: #5a5a5a;
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 150px;
+}
+#footer {
+  background-color: black;
+}
+
+/*#wrap > div.current {
+  display: block; 
+}*/
+
+.container {
+  width: auto;
+  max-width: 840px;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+.route {
+  position: absolute;
+  top:0px;
+  left: 270px;
+  display: inline-block;
+  width: 144px;
+  height: 144px;
+  z-index: 1;
+
+  background-color: black;
+  text-align: center;
+  border: none;
+
+  -webkit-border-radius: 110px;
+  -moz-border-radius: 110px;
+  border-radius: 110px;
+  
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  -o-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.route-text {
+  top:30px;
+  font-family: "Bariol", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+#ball1.route a h3.route-text {
+  /*top: 80px;*/
+}
+
+.route a {
+  text-decoration: none;
+}
+
+h3.route-text:hover {
+  color: rgba(57, 150, 69, 1);
+}
+
+#hero-text-wrap {
+  margin-top: 115px;
+}
+
+#hero-title {
+  font-family: "Bariol", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+}
+
+.content-wrap {
+  margin-top: 100px;
+  width: auto;
+  max-width: 840px;
+}
+
+#weare-wrap {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title-wrap {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+#contributors {
+  margin-top: 50px;
+}
+
+.popover {
+  width: 400px;
+  text-align: left;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#launch-reflection {
+  padding-top: 30px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Navbar links: increase padding for taller navbar */
+.navbar-static-top .nav > li > a { padding: 15px 20px; }
+
+.navbar-static-top .nav {
+  float: right;
+}
+
+.navbar-static-top ul.nav>li>a {
+  line-height: 40px;
+  font-size: 18px;
+}
+
+
+#myCarousel1 {
+  display: block;
+  width: 870px;
+  height: 500px;
+  margin: 0px auto;
+}
+
+#myCarousel2 {
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+#hero-carousel {
+  height: 450px;
+}
+
+#hero-carousel>.item>img {
+  margin: 0 auto;
+} 
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.carousel-control {
+  top: 50%;
+}
+
+.carousel-caption {
+  margin: 0 auto;
+  top: 340px;
+  max-width: 415px;
+  bottom: initial;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* POPUP STYLING
+-------------------------------------------------- */
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transition: all 0.15s ease-out; 
+  -moz-transition: all 0.15s ease-out; 
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing {
+  margin-bottom: 15px;
+}
+
+.marketing .span4 {
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .span4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* bio styles */
+.biopic {
+  float: left;
+  margin-right: 10px;
+}
+
+.leaf-logo{
+  height: 50px;
+  display: inline-block;
+  padding: 0 15px 18px 0;
+}
+
+.marketing-custom {
+  margin: 35px 0 100px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 1175px) {
+  .route {
+    left: 200px;
+  }
+}
+
+@media (max-width: 979px) {
+
+  .container-fluid.navbar-wrapper {
+    margin-bottom: 0;
+    width: auto;
+  }
+  .navbar-inner {
+    border-radius: 0;
+  }
+
+  .route {
+    left: 65px;
+  }
+
+  .popover {
+    width: 236px;
+  }
+
+  .leaf-logo {
+    display: none;
+  }
+  
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .route {
+    left: 110px;
+  }
+
+  .popover {
+    width: 236px;
+  }
+
+  .leaf-logo {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px){
+  
+  .thumbnails>li {
+    margin-left: 15px !important;
+  }
+
+}
+
+/* Miscellaneous fixes for Rim Fire */
+ul li {
+background: none;
+padding-left: 0px;
+}

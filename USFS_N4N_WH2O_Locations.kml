@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>USFS_N4N_WH2O_Locations.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/camera.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>USFS_N4N_WH2O_Locations</name>
+		<open>1</open>
+		<Placemark>
+			<name>Rim of the World Vista</name>
+			<LookAt>
+				<longitude>-120.0389113537551</longitude>
+				<latitude>37.82216449030516</latitude>
+				<altitude>0</altitude>
+				<heading>-0.3983335677169297</heading>
+				<tilt>0</tilt>
+				<range>232.1175451981048</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.0390304447241,37.82201048793951,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lumsden Road 1</name>
+			<LookAt>
+				<longitude>-120.1106474933467</longitude>
+				<latitude>37.833796895922</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004541092026462496</heading>
+				<tilt>0</tilt>
+				<range>127.4205132919775</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.1106474933467,37.83379689592199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lumsden Road 2</name>
+			<LookAt>
+				<longitude>-120.034451366205</longitude>
+				<latitude>37.84598529401031</latitude>
+				<altitude>0</altitude>
+				<heading>0.1539305952603985</heading>
+				<tilt>0</tilt>
+				<range>312.3202470081146</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.0344150305089,37.84591376403755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tuolumne River Canyon Trail</name>
+			<LookAt>
+				<longitude>-120.0616818725641</longitude>
+				<latitude>37.83778124464771</latitude>
+				<altitude>0</altitude>
+				<heading>-1.342300606139192</heading>
+				<tilt>0</tilt>
+				<range>256.1407351853324</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.061487023177,37.83745491142327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hamby Trail</name>
+			<LookAt>
+				<longitude>-120.1272888857907</longitude>
+				<latitude>37.85734926630885</latitude>
+				<altitude>0</altitude>
+				<heading>-1.415442148575638</heading>
+				<tilt>0</tilt>
+				<range>304.3588959217821</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.1270302171893,37.85696910014156,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Preston Falls Trail 2</name>
+			<LookAt>
+				<longitude>-119.9004557254123</longitude>
+				<latitude>37.88641435786321</latitude>
+				<altitude>0</altitude>
+				<heading>0.02303389196408857</heading>
+				<tilt>26.94128581949836</tilt>
+				<range>249.6682468426633</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.8996425042005,37.88612866796412,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carlon Falls Trail</name>
+			<LookAt>
+				<longitude>-119.8596054779286</longitude>
+				<latitude>37.81280704096445</latitude>
+				<altitude>0</altitude>
+				<heading>-0.112182825329198</heading>
+				<tilt>1.77696797114336</tilt>
+				<range>220.2612196923555</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.8596054779286,37.81280704096445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Middle Fork Day Use Area</name>
+			<Camera>
+				<longitude>-119.8654434143354</longitude>
+				<latitude>37.85728069552955</latitude>
+				<altitude>113.3061795679263</altitude>
+				<heading>-179.1832412231286</heading>
+				<tilt>0.01045908204762462</tilt>
+				<roll>-179.9999999579555</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.8654434176586,37.85728050980207,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dimond O Campground</name>
+			<LookAt>
+				<longitude>-119.8750341643907</longitude>
+				<latitude>37.86298362589221</latitude>
+				<altitude>0</altitude>
+				<heading>0.839021292556123</heading>
+				<tilt>39.67703525284631</tilt>
+				<range>103.6643004442053</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.8750341643908,37.86298362589221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South Fork Campground</name>
+			<LookAt>
+				<longitude>-120.045191263964</longitude>
+				<latitude>37.83823898691233</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1249077068923513</heading>
+				<tilt>0</tilt>
+				<range>177.7960866696341</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.045191263964,37.83823898691232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sweetwater Campground</name>
+			<LookAt>
+				<gx:TimeStamp><when>2012-06-28</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-120.0044474212758</longitude>
+				<latitude>37.82521659999467</latitude>
+				<altitude>0</altitude>
+				<heading>-1.350132825499771</heading>
+				<tilt>3.984841340008285</tilt>
+				<range>556.4095455567722</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-120.0039824973008,37.82458116741371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Preston Falls 1</name>
+			<LookAt>
+				<gx:TimeStamp><when>2012-06-28</when>
+</gx:TimeStamp>
+				<gx:ViewerOptions>
+					<gx:option name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option enabled="0" name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>-119.9192741677879</longitude>
+				<latitude>37.88601384985461</latitude>
+				<altitude>0</altitude>
+				<heading>0.01168975810302321</heading>
+				<tilt>23.00302959997089</tilt>
+				<range>2014.686521780589</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-119.9187362243698,37.88292294954958,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
