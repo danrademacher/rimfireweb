@@ -217,20 +217,63 @@ img {border: none;}
                 <div class="tab-content">
                   <div id="rimintro" class="tab-pane fade in active">
                     <div class="row-fluid">
-                      <div class="span6">
-                        <p>
-                          Rim fire description
-                        </p>
+                      <div class="span12">
 
                         <ol>
                           <li><strong>Click the links above to view pictures that people like you have already taken</strong></li>
                           <li><strong>Visit the camera stands and take some pictures of your own!</strong> Just put your phone on the stand, take a picture, and post it to social media using the tag listed on the stand.</li>
                         </ol>
 
-                        <p>Interested in the data we're collecting? Here's the <a href="https://docs.google.com/spreadsheets/d/1EFabn1WUm2YtYabwmDjEaH5OXAMeRMwxe_7I7vmxUNg/edit#gid=727579335">Google Spreadsheet</a>.</p>
-                      </div>
-                      <div class="span6">
+                        <h1>Introduction</h1>
+
+                        <p class="lead" >The Rim Fire charred more acreage in the Sierra Nevada than any wildfire in recorded history. On August 17th, 2013, an illegal campfire gone wild started by a hunter, began it's months long burn through parts of Yosemite National Park and the Stanislaus National Forest, primarily in the Tuolumne River's watershed.</p>
+
+                        IMAGE
+                        <p>Near Camp Mather. Photo by Clint Gould, USFS</p>
+
+                        <p>Within a few short weeks, the Rim Fire scorched through 257,314 acres, or 402 square miles, an area roughly 8 times the size of the City of San Francisco.</p>
+
+                        <p>Watch the second by second growth of the Rim Fire Blaze here:</p>
+                        <div class="span12">
+                        <div class="span6">
+                        <iframe src="http://apps.opendatacity.de/fire/en" width="100%" height="400" scrolling="auto" frameborder="0"></iframe> 
+                        </div>
+                        </div>
+                        <p>&nbsp;</p>
+
+                        <h2>Tuolumne River Watershed</h2>
+
+                        <p>The <a href="https://watershed.ucdavis.edu/tuolumne/resources/ConfluenceTuolumneV1.pdf" target="_blank">Tuolumne River</a> is the water supply for <a href="http://sfwater.org/index.aspx?page=355" target="_blank">San Francisco</a> and numerous <a href="http://bawsca.org/water-supply/http://bawsca.org/water-supply/" target="_blank">other cities</a> in the Bay Area, as well as the <a href="http://www.tid.org/drought-information" target="_blank">Turlock</a> and <a href="http://www.mid.org/" target="_blank">Modesto</a> Irrigation Districts.</p>
+
+                        <p>Water agencies sell the Tuolumne River's water and electricity to over 2.6 million people and businesses in the San Francisco Bay Area, as well as to farmers for agricultural irrigation water in the Central Valley.</p>
+
+                        <p>The Rim Fire will continue to have impacts in this watershed for many years to come. Monitor Change: Rim Fire will assist in documenting the ecosystem's recovery. </p>
+
+                        <h2>The Project: Monitor Change – The Rim Fire</h2>
+
+                        <p>Watching a forest zone regrow after a fire event is a stunning and surprising vision.Given the severity of vegetation and soil burn in the Rim Fire zone, it's regrowth patterns are a source an education to everyone how the Tuolumne River Watershed will regrow – how quickly, what species, how will it look during rain events, what level of erosion? The forest in the watershed burnt differently in different areas.</p>
+
+                        <p class="lead">You can help Monitor Change in the Rim Fire area.</p>
+
+                        <h3>1.  Take a picture!</h3>
+                        <p>Wholly H2O, The Stanislaus National Forest Service, and Nerds For Nature banded together to set up crowd-sourcing photo sites throughout fire impacted areas the Stanislaus National Forest.</p>
+
+                        <p>As you are hiking through the forest, stop, place your camera in the site stand, snap a shot and upload it to What social media? using the hashtag indicated on the sign (Example, #rimfire01, #rimfire02).
+
                         <div id="map"></div>
+
+
+                        <h3>2. Observe the Regrowth!</h3>
+                        <p>Click one of the tabs above to see photos of the recover from all over the watershed.</p>
+
+                        <a href="http://whollyh2o.org/daily-stream/water-supply-security/item/475-the-rim-fire-tuoumne-river-watershed-and-hetch-hetchy-reservoir.html" target="_blank">Learn More about the Tuolumne River Watershed and the Rim Fire.</a>
+
+                        <p>Interested in the data we're collecting? Here's the <a href="https://docs.google.com/spreadsheets/d/1EFabn1WUm2YtYabwmDjEaH5OXAMeRMwxe_7I7vmxUNg/edit#gid=727579335">Google Spreadsheet</a>.</p>
+
+                        <h2>Sponsors and Partners</h2>
+
+We will need to add List Sponsors and partners later.  Sorry.  This part is in process at the moment.
+
                       </div>
                     </div>
                   </div>
@@ -301,7 +344,8 @@ img {border: none;}
         var mapOptions = {
           zoom: 11,
           center: loc,
-          mapTypeId: google.maps.MapTypeId.HYBRID
+          mapTypeId: google.maps.MapTypeId.HYBRID,
+          scrollwheel: false,
         }
         var map = new google.maps.Map(document.getElementById('map'), mapOptions);
         var lyr = new google.maps.KmlLayer({
