@@ -375,9 +375,7 @@ We will need to add List Sponsors and partners later.  Sorry.  This part is in p
           if (elt.hasClass('changeomatic-set')) return
           var tag = $(this).attr('href').replace('#', '')
           if (tag == 'rimfire') {
-            elt.changeomatic({
-              tag: tag,
-            })
+            elt.changeomatic({tag: tag})
           } else {
             elt.changeomatic({
               tag: tag,
