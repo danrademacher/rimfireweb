@@ -21,9 +21,9 @@
   <title>Wholly H2O - Rim Fire Monitoring Project</title>
   <link href="http://www.whollyh2o.org/templates/ja_uvite_j15/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-<link href="/rimfireweb/css/bootstrap.css" rel="stylesheet">
-<link href="/rimfireweb/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="/rimfireweb/css/style.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
 
 <link rel="stylesheet" href="http://www.whollyh2o.org/media/system/css/modal.css" type="text/css" />
 <link rel="stylesheet" href="http://www.whollyh2o.org/templates/ja_uvite_j15/css/k2.css" type="text/css" />
@@ -228,7 +228,7 @@ img {border: none;}
 
                           </div>
                           <div class="span6">
-                            <img src="/rimfireweb/img/rimfire.png" height="400px" />
+                            <img src="/img/rimfire.png" height="400px" />
                             <p>Near Camp Mather. Photo by Clint Gould, USFS</p>
                           </div>
                         </div>
@@ -247,7 +247,7 @@ img {border: none;}
                         <p>Water agencies sell the Tuolumne River's water and electricity to over 2.6 million people and businesses in the San Francisco Bay Area, as well as to farmers for agricultural irrigation water in the Central Valley.</p>
 
                         <div class="right">
-                          <img src="/rimfireweb/img/tuolumnewatershed.png" />
+                          <img src="/img/tuolumnewatershed.png" />
                         </div>
 
                         <p>The Rim Fire will continue to have impacts in this watershed for many years to come. Monitor Change: Rim Fire will assist in documenting the ecosystem's recovery. </p>
@@ -335,11 +335,11 @@ We will need to add List Sponsors and partners later.  Sorry.  This part is in p
     
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../js/jquery-1.7.1.min.js"><\/script>')</script>
-    <!-- <script src="../js/handlebars.js"></script> -->
-    <script src="/rimfireweb/js/bootstrap.js"></script>
-    <script src="/rimfireweb/js/jquery.magnific-popup.js"></script>
-    <script src="/rimfireweb/js/scripts.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-1.7.1.min.js"><\/script>')</script>
+    <!-- <script src="/js/handlebars.js"></script> -->
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/jquery.magnific-popup.js"></script>
+    <script src="/js/scripts.js"></script>
     <script type="text/javascript" src="jquery.cycle2.min.js"></script>
     <script type="text/javascript" src="jquery.cycle2.center.min.js"></script>
     <script type="text/javascript" src="jquery-dateFormat.min.js"></script>
@@ -358,7 +358,7 @@ We will need to add List Sponsors and partners later.  Sorry.  This part is in p
         }
         var map = new google.maps.Map(document.getElementById('map'), mapOptions);
         var lyr = new google.maps.KmlLayer({
-          url: 'http://danrademacher.github.io/rimfireweb/USFS_N4N_WH2O_Locations.kml'
+          url: 'http://rimfire.whollyh2o.org/USFS_N4N_WH2O_Locations.kml'
         })
         lyr.setMap(map);
       }
