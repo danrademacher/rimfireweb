@@ -1,12 +1,20 @@
-rimfire
+Change Brackets basic web container
 =======
 
-This is a version of Change Brackets for the Rim Fire and Wholly H2O.
+This is a version of Change Brackets front end that's more easily reusable than working from previous project-specific versions.
 
-This set of files displays and runs the slideshows hosted at rimefire.whollyh2o.org. The data for those slideshows is stored in [this Google Doc](https://docs.google.com/spreadsheets/d/1EFabn1WUm2YtYabwmDjEaH5OXAMeRMwxe_7I7vmxUNg/edit#gid=727579335).
+Adapting this for use minimally requires the following:
 
-The social media in that spreadsheet is harvested using separate code hosted on Heroku. There's zero traffic and one harvest per day, so that service easily runs under a free single-Dyno Heroku instance.
-
-The source code for the harvesters is over in the [the Change Brackets repository](https://github.com/nerdsfornature/changebrackets).
+1. Set up a hashtag harvester on the Nerdsfornature.org-owned changebrackets Heroku app (or another similar service)
+2. Insert the Google Docs ID as the value of `googleSpreadsheetId`in index.html
+3. Add a link to that same document in the introductory area, which contains a blank href for that purpose.
+3. Update other intro copy
+3. Replace "thehashtag" with correct hashtag in `index.html`
+4. Add a new map centerpoint in the Google maps code.
+5. Add a new publicly accessible KML file in the Google Maps code.
+6. Edit the cname file as needed to give this page a web presence.
 
 Variations on this repo served via Github Pages combined with that one running on Heroku constitute a free, low-maintenance front and backend solution for Change Bracket installations.
+
+TODO: Consider just moving this page and all variations of this page to a subdirectory
+
