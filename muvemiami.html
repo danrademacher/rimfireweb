@@ -121,20 +121,9 @@
     </div>
     <div class="btn-group"  class="btn-toolbar" role="toolbar" style="margin-bottom:20px;">
       <button type="header"  class="btn btn-default">
-        Choose a hasthtag: <strong>#thehashtag</strong>
+        Choose a hasthtag: <strong>#vknp</strong>
       </button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag01" style="color:black !important;" data-toggle="tab">01</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag02"  style="color:black !important;" data-toggle="tab">02</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag03"  style="color:black !important;" data-toggle="tab">03</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag04"  style="color:black !important;" data-toggle="tab">04</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag05"  style="color:black !important;" data-toggle="tab">05</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag06"  style="color:black !important;" data-toggle="tab">06</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag07"  style="color:black !important;" data-toggle="tab">07</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag08"  style="color:black !important;" data-toggle="tab">08</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag09"  style="color:black !important;" data-toggle="tab">09</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag10"  style="color:black !important;" data-toggle="tab">10</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag11"  style="color:black !important;" data-toggle="tab">11</a></button>
-      <button type="button" class="btn btn-default"><a href="#thehashtag12"  style="color:black !important;" data-toggle="tab">12</a></button>
+      <button type="button" class="btn btn-default"><a href="#vknp01" style="color:black !important;" data-toggle="tab">01</a></button>
     </div>
   </div>
   <div class="tab-content">
@@ -150,7 +139,7 @@
         <h2>You can help Monitor Change in the PROJECT NAME area</h2>
 
         <h3>1.  Take a picture!</h3>
-        <p>Find a sign, place your camera in the stand, snap a shot and upload it to Flickr, Twitter, or Instagram using the hashtag indicated on the sign (Example, #thehashtag01, #thehashtag02).
+        <p>Find a sign, place your camera in the stand, snap a shot and upload it to Flickr, Twitter, or Instagram using the hashtag indicated on the sign (Example, #vknp01, #vknp02).
 
         <div id="map"></div>
 
@@ -169,30 +158,11 @@
         </ul>
       </div>
     </div>
-  <div id="thehashtag01" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag02" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag03" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag04" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag05" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag06" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag07" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag08" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag09" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag10" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag11" class="tab-pane fade"><div class="changeomatic"></div></div>
-  <div id="thehashtag12" class="tab-pane fade"><div class="changeomatic"></div></div>
+  <div id="vknp01" class="tab-pane fade"><div class="changeomatic"></div></div>
 </div>
 
 	
-      <script type="text/javascript">
-			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-			</script>
-			<script type="text/javascript">
-			try {
-			var pageTracker = _gat._getTracker("UA-16936148-1");
-			pageTracker._trackPageview();
-			} catch(err) {}</script>
+     
 			</body>
 <!-- Placed at the end of the document so the pages load faster -->
     
@@ -212,7 +182,7 @@
 
     <script type="text/javascript">
       function initMap() {
-        var loc = new google.maps.LatLng(37.83823898691233,-120.045191263964);
+        var loc = new google.maps.LatLng(25.761680,-80.191790);
         var mapOptions = {
           zoom: 11,
           center: loc,
@@ -221,7 +191,7 @@
         }
         var map = new google.maps.Map(document.getElementById('map'), mapOptions);
         var lyr = new google.maps.KmlLayer({
-          url: 'http://rimfire.whollyh2o.org/USFS_N4N_WH2O_Locations.kml'
+          url: ''
         })
         lyr.setMap(map);
       }
@@ -237,12 +207,12 @@
           var elt = $($(this).attr('href') + ' .changeomatic')
           if (elt.hasClass('changeomatic-set')) return
           var tag = $(this).attr('href').replace('#', '')
-          if (tag == 'thehashtag') {
+          if (tag == 'vknp') {
             elt.changeomatic({tag: tag})
           } else {
             elt.changeomatic({
               tag: tag,
-              googleSpreadsheetId:'1EFabn1WUm2YtYabwmDjEaH5OXAMeRMwxe_7I7vmxUNg'
+              googleSpreadsheetId:'14jg5kFhufzxOQFAiUtbt6NG8dtLiV4lRoTGjXNygo0E'
               })
           }
         })
